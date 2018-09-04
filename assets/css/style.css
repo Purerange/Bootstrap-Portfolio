@@ -43,11 +43,12 @@ nav a {
 }
 
 #main-container {
-    margin-top: 35px;
+    margin: 35px auto 40px;
     background: #fff;
     border: 1px solid #ddd;
     padding: 30px;
 }
+
 h1,
 h2,
 h3 {
@@ -55,8 +56,10 @@ h3 {
     font-weight: 700;
     color: #4aaaa5;
 }
+
 h1 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
@@ -65,5 +68,50 @@ h1 {
 h2,
 h3 {
     font-size: 22px;
+}
+
+footer {
+    padding: 30px 0;
+    color: #ccc;
+    font-size: 12px;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Portfolio Page */
+
+.work {
+    margin: 20px 0 25px;
+    width: 100%;
+}
+
+.work img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+/* Need to fix width of h3 banners */
+.work h3 {
+    position: absolute;
+    bottom: 10px;
+    width: 90.3%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+.auth-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
