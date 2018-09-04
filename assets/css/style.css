@@ -115,3 +115,13 @@ footer {
     margin-right: 25px;
 }
 
+/* Contact Page */
+
+input[type=submit] {
+    padding: 5px 30px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaab;
+    border: 0 none;
+}
+
